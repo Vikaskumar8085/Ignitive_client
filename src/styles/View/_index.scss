@@ -1,0 +1,39 @@
+@import "../Utils/center-mixin";
+@import "../Utils/text-mixins";
+
+.viewWrapper {
+    display        : flex;
+    position       : relative;
+    width          : 100%;
+    justify-content: center;
+    align-items    : center;
+    height         : 90vh;
+    // overflow: hidden;
+
+    .viewBox {
+        background-color: var(--background-color);
+        padding         : 30px;
+        border-radius   : 4px;
+
+        .col {
+
+            h1 {
+                @include text-mixin;
+                color: var(--bg-white-color) !important;
+            }
+
+            p {
+                @include text-mixin;
+                color: var(--bg-white-color) !important;
+            }
+
+            a {
+                @include text-mixin;
+                color: var(--bg-white-color) !important;
+
+            }
+
+        }
+
+    }
+}

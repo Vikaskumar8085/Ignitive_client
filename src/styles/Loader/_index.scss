@@ -1,0 +1,17 @@
+.loader_container {
+    display         : block;
+    position        : absolute;
+    height          : 100vh;
+    overflow        : hidden;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index         : 1;
+    width           : 100%;
+
+    .loader_row {
+        position : absolute;
+        top      : 50%;
+        left     : 50%;
+        transform: translate(-50%, -50%);
+
+    }
+}

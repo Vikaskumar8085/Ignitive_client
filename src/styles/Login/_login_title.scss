@@ -1,0 +1,14 @@
+@import "../Utils/text-mixins";
+
+.login_title {
+    position: relative;
+    display : block;
+    overflow: hidden;
+    width   : 100%;
+
+    h1 {
+        @include text-mixin;
+        margin   : 10px 0px;
+        font-size: 2em;
+    }
+}

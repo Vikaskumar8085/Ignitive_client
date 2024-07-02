@@ -1,0 +1,26 @@
+@import "./Loader/index";
+@import "./Login/index";
+@import "./Register/index";
+@import "./Variables/variables";
+@import "./Home/index";
+@import "./View/index";
+@import "./Edit/index";
+
+
+
+* {
+    margin    : 0px;
+    padding   : 0px;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    padding: 20px;
+}
+
+:root {
+    --background-color:#{$myColor};
+    --bg-white-color  :#{$WhiteColor};
+    --text-color      :#{$textColor};
+    --text-sec-color  :#{$textSecColor};
+}

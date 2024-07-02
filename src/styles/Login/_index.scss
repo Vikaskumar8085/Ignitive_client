@@ -1,0 +1,20 @@
+@import "../Utils/center-mixin";
+
+.login_container {
+    display         : block;
+    position        : relative;
+    background-color: var(--background-color);
+    height          : 100vh;
+    width           : 100%;
+
+    .login_row {
+        @include center;
+        background-color: var(--bg-white-color);
+        padding         : 30px;
+        border-radius   : 4px;
+        width           : 500px;
+        @import "./login_title";
+        @import "./login_link";
+
+    }
+}

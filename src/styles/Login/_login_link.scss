@@ -1,0 +1,13 @@
+@import "../Utils/text-mixins";
+
+.login_link {
+    display : block;
+    width   : 100%;
+    overflow: hidden;
+    position: relative;
+
+    p {
+        @include text-mixin;
+        font-size: 1em;
+    }
+}

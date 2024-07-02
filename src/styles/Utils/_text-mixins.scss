@@ -1,0 +1,9 @@
+@mixin text-mixin {
+
+    color          : var(--text-color);
+    font-family    : 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform : capitalize;
+    text-decoration: none;
+    text-align     : center;
+    margin         : 10px 0px;
+}

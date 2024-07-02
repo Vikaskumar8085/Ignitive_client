@@ -1,0 +1,12 @@
+@import "../Utils/text-mixins";
+
+.Register_link {
+    display : block;
+    position: relative;
+    overflow: hidden;
+    width   : 100%;
+
+    p {
+        @include text-mixin;
+    }
+}

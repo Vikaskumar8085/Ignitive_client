@@ -1,0 +1,13 @@
+@import "../Utils/text-mixins";
+
+.Form_title {
+    padding-bottom: 10px;
+    position      : relative;
+    display       : block;
+
+    h1 {
+        @include text-mixin;
+        color: var(--bg-white-color) !important;
+    }
+
+}
